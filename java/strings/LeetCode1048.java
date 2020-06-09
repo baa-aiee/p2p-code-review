@@ -4,7 +4,7 @@ class Solution {
     public boolean isPredecessor(String one, String two) {
         int diff = 0;
         int i = 0,j = 0;
-        for (; (i < one.length()) && (j < two.length()); j++) {
+        while((i < one.length()) && (j < two.length())) {
             if (diff > 2) {
                 break;
             }
@@ -13,6 +13,7 @@ class Solution {
             } else {
                 i++;
             }
+            j++;
         }
         return (diff <= 1) && (i == one.length());
     }
