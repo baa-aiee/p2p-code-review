@@ -1,4 +1,4 @@
-# Welcome to BAA-AIEE Peer to Peer Interview Git Repository #
+# Welcome to BAA-AIEE Peer to Peer Mock Interview Git Repository #
 --------------------------------------------------
 - We practice interviews.
 - Our Schedule http://tiny.cc/baa-aiee-welcome
